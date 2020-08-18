@@ -9,6 +9,7 @@
 
 <body>
   <header id="header">
+    <img src="./img/mouse.png" id="header-img" alt="logo">
     <nav id="nav-bar">
       <ul>
         <li><a href="#home" class="nav-link">Home</a></li>
@@ -17,13 +18,16 @@
         <li><a href="#contact" class="nav-link">Contact Us</a></li>
       </ul>
     </nav>
-    <section id="home">
-      <img src="./img/mouse.png" id="header-img" alt="logo">
-    </section>
+
   </header>
   <main>
     <section>
+      <h2 id="home">Home</h2>
+    </section>
+    <section>
       <h2 id="about">About</h2>
+      <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/2IkgGGgm91s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </section>
     <section>
       <h2 id="product">Products</h2>
@@ -32,6 +36,10 @@
     <section>
       <h2 id="contact">Contact Us</h2>
       <!-- Form -->
+      <form action="#" method="post" id="form">
+        <input type="email" id="email" name="">
+        <button type="submit">Submit</button>
+      </form>
     </section>
   </main>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
