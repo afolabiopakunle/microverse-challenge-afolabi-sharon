@@ -1,0 +1,14 @@
+#header-img {
+    width: 120px;
+    /* margin: auto;
+    display: block; */
+    transform: rotate(45deg);
+}
+
+header {
+    display: flex;
+}
+
+section {
+    height: 40vh;
+}
